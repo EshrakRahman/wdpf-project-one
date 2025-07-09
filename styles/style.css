@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+header {
+    min-height: 5.5rem;
+    max-height: 5.5rem;
+    /* width: 100%; */
+    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(222, 222, 222); */
+
+}
+
+header nav .logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.navbar-nav {
+    gap: 50px;
+}
+
+nav .container .icon-position {
+    position: relative;
+}
+
+
+nav .container .menu-drop-icon {
+    width: 15px;
+    height: 25px;
+    object-fit: contain;
+    display: inline-block;
+    position: absolute;
+    left: 96%;
+    top: 14%;
+}
+
+nav .container ul li a {
+    font-size: 1.1rem;
+    font-weight: normal;
+    line-height: 1.1rem;
+    color: #001c64;
+    /* margin: 1rem 2.5rem; */
+    border: none;
+    transition: .3s all;
+
+    /* hover 0070e0 */
+
+}
+
+nav .container ul li a:hover {
+    color: #0070e0;
+    background-color: #fff;
+    border-radius: 25px;
+    border: none;
+    /* font-size: 1.125rem; */
+    /* line-height: 1.5rem; */
+
+}
+nav .d-flex {
+    gap: 30px;
+}
+
+nav .d-flex a {
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    align-self: center;
+    padding: .5rem ;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    transition: all 0.3s ease; /* smooth transition */
+
+
+    /* font-weight: bold; */
+}
+
+nav .d-flex .btn {
+    padding: .5rem 2.5rem;
+    font-size: 1.1rem;
+    border: 1px solid #001c64;
+    border-radius: 50px;
+    font-weight: 700;
+    color: #001c64;
+    text-transform: capitalize;
+
+}
+nav .d-flex .btn-help {
+}
+
+nav .d-flex a:hover {
+    border: 1px solid #fff;
+    font-weight: bold;
+    color: #0070e0;
+    background-color: #fff;
+
+}
+
+nav .d-flex .btn.sign-up {
+    background-color: #001c64;
+    color: #fff;
+    transition: .3s all;
+}
+
+nav .d-flex .btn.sign-up:hover {
+    background-color: #0070e0;
+    border-color: #0070e0;
+
+}
+
+nav .d-flex .btn.log-in:hover {
+    border-color: #0070e0;
+    color: #0070e0;
+}
+/* header info  */
+.header-info-bg {
+    background-color: #152C8E;
+    height: 100%;
+
+}
+.header-info .row{
+    /* outline: 1px solid red; */
+    /* width: 100%; */
+    /* padding: 0 2rem; */
+    margin: 0 2.5rem;
+}
+
+.header-info .col h1.title {
+    font-size: 4.5rem;
+    color: #fff;
+    width: 55%;
+    margin-top: 4rem;
+    font-weight: 500;
+    line-height: 5.5rem;
+    padding-bottom: 1rem;
+
+    /* text-wrap: wrap; */
+}
+.header-info .header-link {
+    display: flex;
+    align-items: center;
+}
+.header-info .header-title-section a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: #5B72BC;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 6rem;
+}
+
+.header-info .header-title-section span.circle {
+    width: 30px;
+    height: 30px;
+    background-color: #56CCFE;
+    /* background-color: black; */
+    /* background-color: #001c64; */
+    display: block;
+    /* border: 1px solid red; */
+    border-radius: 99%;
+    position: absolute;
+    top: -12%;
+    left: 116%;
+}
+
+.header-info .col .arrow {
+    position: absolute;
+    left: 112%;
+    z-index: 10;
+    top: -54%;
+
+
+}
+.header-info .col a .arrow i {
+
+    color: rgb(170, 227, 252);
+    
+}
+
+.header-info .col a .icon-lg {
+    font-size: 35px;
+}
+
+
+
+.header-info .col .arrow i {
+    color: black;
+    /* font-size: 2.5rem; */
+}
+.header-info .row {
+    /* outline: 1px solid green; */
+    width: 100%;
+    /* height: 400px; */
+}
+/* 2nd row section */
+
+.header-info .row-bottom .col-6 .row-bottom-title{
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 1.8rem;
+}
+
+.row-bottom .wrapper {
+    display: flex;
+    gap: 30px;
+}
+
+.row-bottom .wrapper .line {
+    width: 1px;
+    height: 200px;
+    background-color: #ffffff56;
+    display: block;
+}
+
+.row-bottom .wrapper .input-mobile span{
+    position: relative;
+    display: block;
+    margin-bottom: 2rem;
+
+}
+
+.wrapper .input-mobile span .mob-icon {
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    font-size: 1.5rem;
+    color: rgb(88, 87, 87);
+
+}
+.wrapper .input-mobile span input {
+    width: 360px;
+    height: 60px;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 2rem;
+}
+
+.wrapper .send-link {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(9, 9, 9);
+    padding: 1rem 2rem;
+    background-color: #F9B821;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 50px;
+    /* margin-bottom: 2.5rem; */
+}
+
+.wrapper p.disclaimer {
+    margin-top: 1.5rem;
+    font-size: .8rem;
+    font-weight: 300;
+    width: 80%;
+    color: #fff;
+}
+
+
+.header-info .bg-pattern-position img{
+    width: 510px;
+    height: 406px;
+}
+.sign-up-business {
+    padding: 44px 0;
+    border-bottom: 2px solid rgb(238, 238, 252);
+}
+
+.sign-up-business .flex-center-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-up-business p {
+    display: inline-block;
+    font-size: 1.2rem;
+    padding-right: .8rem;
+    font-weight: 400;
+    /* position: relative; */
+
+}
+.sign-up-business .icon-position {
+    position: relative;
+}
+
+.sign-up-business .icon-lg {
+    font-size: 35px;
+    position: absolute;
+    right: -6%;
+    bottom: 1%;
+    z-index: 6;
+}
+
+.sign-up-business a::after {
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-radius: 99%;
+    background-color: #56CCFE;
+    display: block;
+    position: absolute;
+    left: 103%;
+    top: 4%;
+    z-index: 5;
+}
+
+.sign-up-business a {
+    text-decoration: none;
+    font-size: 1rem;
+    /* color: ; */
+
+}
+
+
+/* cards section  */
+section.cards {
+    margin: 0 2.5rem;
+    margin-top: 4rem;
+
+
+}
+.cards .flex-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards .bnpl img {
+    width: 512px;
+    height: 486px;
+    margin-bottom: 6rem;
+}
+
+.cards .bnpl .details h2 {
+    font-size: 3rem;
+    width: 90%;
+    margin-bottom: 1.5rem;
+
+}
+
+.cards .bnpl .details p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-wrap: wrap;
+    width: 90%;
+}
+
+.cards .crypto p:first-of-type{
+
+    width: 82%;
+    margin-bottom: 2rem;
+}
+
+.cards .crypto p:last-of-type {
+    /* color: red; */
+    font-size: .9rem;
+    font-weight: 200;
+    width: 68%;
+    margin-bottom: 2rem;
+
+}
+
+/* Brands */
+section.brands .row{
+    margin: 3rem 2.5rem;
+}
+
+.brands .brand-flex-f {
+    display: flex;
+    align-items: center;
+}
+
+.brands .brand-flex-f h3 {
+    font-size: 2.6rem;
+    font-weight: 400;
+    /* width: 70%; */
+}
+/* #121661 */
+
+/* singup section 
+ */
+
+section.sign-up {
+    background-color: #121661;
+    color: white;
+    padding: 60px;
+    text-align: center;
+
+}
+ .sign-up .row{
+    margin: 3rem 2.5rem;
+    
+
+ }
+
+ .flex-signup {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+ }
+
+
+ .sign-up .row h3 {
+    font-size: 2.8rem ;
+    width: 70%;
+    font-weight: 400;
+    padding-bottom: 1.2rem;
+ }
+
+ .sign-up button {
+    padding: .8rem 6.5rem;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #152C8E;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 4.5rem;
+ }
+
+ .sign-up .counting {
+    display: flex;
+    gap: .2rem;
+    align-items: center;
+ }
+
+ .sign-up .counting .digits {
+    padding: 1.8rem;
+    background-color: #1372EB;
+    border-radius: 28px;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2rem;
+ }
+section.footnote {
+    margin: 1.8rem 0 3rem 0;
+}
+
+.footnote .row {
+    margin: 3rem 2.5rem;
+}
+
+.footnote p {
+    color: #687173;
+    font-size: .8rem;
+    font-weight: 300;
+}
