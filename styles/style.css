@@ -451,3 +451,60 @@ section.footnote {
     font-size: .8rem;
     font-weight: 300;
 }
+
+footer .col img{
+    width: 180px;
+    margin-bottom: 1.5rem;
+    /* display: block; */
+
+}
+footer .country-links img {
+    width: 30px;
+    height: 30px;
+    /* display: block; */
+    
+}
+footer .col .left-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 30px; */
+}
+
+
+footer .line {
+    width: 100%;
+    height: 1px;
+    background-color: #d7dcde;
+    display: block;
+    margin-bottom: 1.5rem;
+}
+
+
+
+footer .left-links div > *,
+footer .left-links-b > *,
+footer .right-links-b  > * {
+    
+    margin-left: 1.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: .9rem;
+    color: #042267;
+    transition: all .3s;
+}
+footer .right-links-b span {
+    color: #7C818A;
+}
+
+footer .left-links div > *:hover {
+    text-decoration: underline;
+}
+
+footer .bottom-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
