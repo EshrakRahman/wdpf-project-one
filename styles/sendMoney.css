@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sm-header-info {
+    border-top: 1px solid #CCCCCC;
+    padding: 4.5rem 0;
+}
+
+.sm-header-info .container .row {
+    margin: 0 1.5rem;
+}
+
+.sm-header-info .container .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sm-header-info .col p:first-of-type {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: #000000;
+
+}
+
+.sm-header-info .col h1 {
+    font-size: 5rem;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 5px;
+    color: #000000;
+
+}
+
+.sm-header-info .col p:last-of-type {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #000000;
+    width: 70%;
+    text-align: center;
+    margin-bottom: 2rem;
+
+}
+
+.sm-money {
+    margin-top: 4rem;
+}
+
+.sm-money .col h2 {
+    width: 95%;
+}
+
+.sm-money .col .last-sm-mod p:first-of-type,
+.sm-money .col .last-sm-mod p:last-of-type{
+    width: 80%;
+    /* text-wrap: wrap; */
+    /* border: 1px solid red; */
+}
+/* send money feature  */
+.send-features {
+    margin: 6rem 0;
+}
+
+.send-features .container .row {
+    margin: 4rem 1.5rem;
+}
+
+.send-features .row .text-group {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 1.3rem;
+}
+.send-features .row .text-group h3 {
+    font-size: 3rem;
+    font-weight: 800;
+    width: 80%;
+    color: #000000;
+}
+
+
+.send-features .row .text-group p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    width: 80%;
+    color: #000000;
+}
+.send-features .three .text-group {
+    padding-left: 4rem;
+}
+
+
+.send-features .send-features-btn {
+    padding: .8rem 1.5rem;
+    border-radius: 28px;
+    background-color: transparent;
+    outline: 1px solid transparent;
+    border: 2px solid black;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    transition: .1s ;
+
+}
+
+.send-features .send-features-btn:hover {
+    outline: 3px solid black;
+    border: 2px solid black;
+}
+

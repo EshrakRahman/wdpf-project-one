@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.s-header-info {
+    border-top: 1px solid #CCCCCC;
+    padding-top: 2rem;
+    /* background-color: ; */
+    margin-bottom: 4.5rem;
+}
+
+.s-header-info .container .row{
+    margin: 0 1.5rem;
+}
+
+.s-header-info .col-left {
+    padding-top: 3rem;
+    /* margin-left: 3.5rem; */
+}
+
+.s-header-info .col-left p:first-of-type {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 1.5rem;
+}
+
+.s-header-info .col-left h1 {
+    font-size: 5rem;
+    color: #000000;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.s-header-info .col-left p:nth-of-type(2) {
+    color: black;
+    font-weight: 600;
+    width: 90%;
+    line-height: 180%;
+    font-size: 1.2rem;
+}
+
+.s-header-info .create-code, .s-header-info .sign-up, .flexbile-payments-link, .sm-header-info .create-code, .sm-header-info .sign-up{
+    padding: .7rem 2rem;
+    outline: 2px solid transparent;
+    border-radius: 28px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border: 2px solid transparent;
+    margin-bottom: 2rem;
+
+/* all those css represet several button design  */
+}
+
+.s-header-info .create-code, .flexbile-payments-link, .sm-header-info .create-code{
+    background-color: #000000;
+    color: white;
+    margin-right: 1rem;
+    transition: all .3s ease;
+
+}
+
+.s-header-info .create-code:hover, 
+.flexbile-payments-link:hover, .sm-header-info .create-code:hover {
+    background-color: rgb(96, 205, 255);
+    color: black;
+    border: 2px solid black;
+    outline: 2px solid black;
+}
+
+.s-header-info .sign-up, 
+.sm-header-info .sign-up{
+    background-color: white;
+    border: 2px solid black;
+    outline: 1px solid transparent;
+    transition:  .3s ;
+}
+
+.s-header-info .sign-up:hover, .sm-header-info .sign-up:hover{
+    outline: 2px solid black;
+}
+
+.s-header-info .col-left p:last-of-type {
+    font-size: .8rem;
+    color: #000000;
+    font-weight: 500;
+}
+
+/* pay and get paid */
+
+.flex-spending .col h2 {
+    text-align: center;
+    width: 64%;
+}
+
+.flex-spending .link-p {
+
+    color: #000000;
+}
+.flex-spending .flex-spending-f .items-f p:first-child {
+    /* font-size: 1.5rem;
+    border: 1px solid red; */
+}
+.flex-spending .pay-item-custom {
+    /* width: 0%; */
+}
+
+/* payments effortless */
+
+.payments {
+    margin: 4rem 0;
+}
+.payments .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.payments .container h2 {
+    text-align: center;
+    font-size: 4rem;
+    width: 70%;
+    font-weight: 800;
+    margin-bottom: 3.5rem;
+}
+
+.payments .container .row {
+    margin: 0 1.5rem;
+}
+
+.payments .container .row-top {
+    margin-bottom: 6rem;
+    /* padding: 50% 0; */
+}
+
+.payments .row h3 {
+    font-size: 3rem;
+    font-weight: 800;
+    width: 65%;
+    margin-bottom: 2rem;
+    color: black;
+
+}
+
+.payments .row p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black;
+    width: 80%;
+    margin-bottom: 2rem;
+}
+
+.payments .row .text-col {
+    /* padding: 50% 0; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    /* gap: 3rem; */
+}
+
+.payments .row-bottom .text-col{
+    padding-left: 3rem;
+}
+
+.payments .row-bottom .text-col a {
+    color: black;
+}
+
+/* qr code section */
+
+.qr-code .container .row {
+    margin: 2rem 1.5rem;
+
+}
+
+.qr-code .container .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F7FA;
+    padding: 3rem ;
+    width: 60.5rem;
+    height: 100%;
+    gap: 1.5rem;
+
+}
+
+.qr-code .col h2 {
+    font-size: 4rem;
+    font-weight: 800;
+    width: 60%;
+    text-align: center;
+}
+
+.qr-code .col p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 60%;
+    text-align: center;
+}
+
+/* faq */
+.scan-faq {
+    margin: 6rem 0;
+}
+
+.accordion .container .row {
+    margin-left: 1rem;
+}
+
+.discover .d-cards {
+    /* columns-gap: 6rem !important; */
+}
