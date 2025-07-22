@@ -114,3 +114,106 @@
     border: 2px solid black;
 }
 
+/* blog section */
+.blog-section {
+    margin: 6rem 0;
+     
+}
+
+.blog-section .blog-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blog-section h2 { 
+    font-size: 5rem;
+    font-weight: 800;
+    color: #000000;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.blog-section .blog-flex p:nth-child(1) {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+.blog-section .blog-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.blog-container .blog-post {
+    max-width: 344px;
+    height: 100%;
+    /* max-height: 649; */
+    background-color: #EDF0F2;
+    outline: 3px solid transparent;
+    transition: outline .3s ease;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+
+    /* outline: 1px solid transparent; */
+
+}
+
+.blog-container .post-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.blog-container .blog-post:hover {
+    outline-color: #002891;
+}
+
+.blog-container  img.img-fluid-s {
+    /* object-fit: fit; */
+    /* border: 1px solid transparent; */
+    width: 344px;
+    height: auto;
+    display: block;
+}
+.blog-container .post-details {
+    padding: 2rem;
+}
+.post-details .catagory,
+.post-details .published-info {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.post-details .catagory span,
+ .post-details .published-info span{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.post-details .catagory span:nth-of-type(2),
+.post-details .published-info span:nth-of-type(2) {
+    height: 25px;
+    width: 1px;
+    /* background-color: #CCCCCC; */
+    border: 1px solid #CCCCCC;
+}
+
+.post-details .blog-title {
+    font-size: 2rem;
+    font: 800;
+    margin-bottom: 2rem;
+}
+
+.post-details p {
+    font-size: 1rem;
+    font-weight: 600;
+}

@@ -496,14 +496,20 @@ footer .line {
 footer .left-links div > *,
 footer .left-links-b > *,
 footer .right-links-b  > * {
-    
-    margin-left: 1.5rem;
     text-decoration: none;
     font-weight: 600;
     font-size: .9rem;
     color: #042267;
     transition: all .3s;
 }
+
+footer .left-links div > *:not(:first-child),
+footer .left-links-b > *:not(:first-child),
+footer .right-links-b > *:not(:first-child) {
+    margin-left: 1.5rem;
+}
+
+
 footer .right-links-b span {
     color: #7C818A;
 }
