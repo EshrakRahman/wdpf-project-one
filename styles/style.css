@@ -566,3 +566,29 @@ footer .bottom-links {
         justify-content: center;
     }
 }
+
+/* responsive design  */
+@media (min-width: 992px) and (max-width: 1199px) {
+    nav .container ul li a {
+        font-size: 1rem;
+    }
+    nav .d-flex .btn {
+        padding: .4rem 1.2rem;
+        font-size: .8rem;
+    }
+    .header-info .col h1.title {
+        width: 80%;
+    
+    }
+
+    .header-info .row {
+        margin: 0;
+    }
+    .row-bottom .wrapper {
+        margin-bottom: 30px;
+    }
+    .wrapper .input-mobile span input {
+        padding-left: 3rem;
+    }
+}
+
